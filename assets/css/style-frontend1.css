@@ -97,6 +97,7 @@ p {
     border-radius: 3px;
     margin-top: 4px;
     margin-left: 15px;
+    margin-right: 15px;
     font-weight: 600;
 }
 
@@ -178,6 +179,7 @@ p {
     background-color:#fafafa;
     padding-top: 10px;
     padding-right: 70px;
+    transition: padding .2s ease-in-out;
 }
 
 .navbar-custom ul li a {
