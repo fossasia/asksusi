@@ -52,6 +52,19 @@
     <script src="./assets/js/pace.min.js"></script>
     <!-- For revealing animations when scrolling: -->
     <script src="./assets/js/wow.min.js"></script>
+    <!-- Shift navbar button on scroll on mobile devices-->
+    <script>
+        $(window).on('scroll', function() {
+            if($(this).width() <= 600){
+                if($(this).scrollTop() >= 110) {
+                    $('.navbar').css('padding-right', '0px');
+                }
+                else {
+                    $('.navbar').css('padding-right', '70px');
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
